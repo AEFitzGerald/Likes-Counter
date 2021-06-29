@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!--fontawesome-->
+    <script src="https://kit.fontawesome.com/0690bb9a70.js" crossorigin="anonymous"></script>
+    <title>Network</title>
+</head>
+<body>
+    <header>
+        <h1>Network</h1>
+    </header>
+    <div id="content-wrapper">
+        <div class="col-1">
+            <div id="profile-card-portrait">
+                <p>
+                    <i class="fas fa-user-ninja"></i>
+                </p>
+                <a href="#">Add Avatar</a>
+                <h2 class="user-name">Edie Love</h2>
+            </div>
+        </div>
+        <div class="col-2">
+            <h1 id="title-posts">Latest Posts</h1>
+                <div class="user-comment">
+                    <div class="topbar">
+                        <h2 class="user-name">Krista Towers</h2>
+                        <div class="likes">
+                            <p><span id="likes-user-1">9</span> like(s)</p>
+                            <button class="like-btn" id="btn-1" onclick="updateLikes1()">Like</button>
+                        </div>
+                    </div>
+                    <div class="comment">
+                        <p>I just set up this new discord bot, let me know what you think. <a href="#">View Discord Bot</a></p>
+                    </div>
+                </div><!--END user comment-->
+
+                <div class="user-comment">
+                    <div class="topbar">
+                        <h2 class="user-name">Uma Tinkers</h2>
+                        <div class="likes">
+                            <p><span id="likes-user-2">12</span> like(s)</p>
+                            <button class="like-btn" id="btn-2" onclick="updateLikes2()">Like</button>
+                        </div>
+                    </div>
+                    <div class="comment">
+                        <p>I created a new token on the Cardano blockchain, and can show you how! See my video on the Theta Network. <a href="#">Theta</a></p>
+                    </div>
+                </div><!--END user comment-->
+
+                <div class="user-comment">
+                    <div class="topbar">
+                        <h2 class="user-name">Rosa Wonders</h2>
+                        <div class="likes">
+                            <p><span id="likes-user-3">9</span> like(s)</p>
+                            <button class="like-btn" id="btn-3" onclick="updateLikes3()">Like</button>
+                        </div>
+                    </div>
+                    <div class="comment">
+                        <p>Check out my new app prototype for investing. Do you like the design? <a href="#">Figma</a></p>
+                    </div>
+                </div><!--END user comment-->
+        </div>
+
+    </div><!--END content-wrapper-->
+
+    
+<script src="script.js"></script>
+</body>
+</html>

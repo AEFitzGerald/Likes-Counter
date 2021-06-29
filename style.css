@@ -1,0 +1,123 @@
+* {
+    outline: 0;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+html {
+    font-size: 20px;
+}
+
+body {
+    background-color: rgba(195, 213, 224, 0.883);
+    font-size: 1em;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 auto;
+}
+
+header,
+#content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 70%;
+}
+
+header {
+    align-items: center;
+    background-color: rgb(34, 28, 28);
+    min-height: 100px;
+}
+
+header h1 {
+    color: rgb(230, 255, 255);
+    padding-left: 20px;
+    width: 20%;
+}
+
+#content-wrapper {
+    flex-direction: row;
+}
+
+.col-1, 
+.col-2,
+#profile-card-portrait,
+.user-comment {
+    display: flex;
+    flex-direction: column;
+}
+
+.col-1 {
+    flex: 1;
+}
+
+.col-2 {
+    gap: 1.5em;
+    flex: 3;
+}
+
+#profile-card-portrait,
+.user-comment {
+    background-color: rgb(255, 247, 247);
+    border: 1px solid rgb(65, 64, 64, 0.8);
+    border-radius: 10px;
+}
+
+#profile-card-portrait {
+    align-items: center;
+    gap: 1.5em;
+    justify-content: center;
+    margin: 5.375em 2em 0 0;
+    padding: 3em 0;
+}
+
+#title-posts {
+    padding: .8em 0 0 .4em;
+}
+
+.user-comment {
+    gap: 1em;
+    padding: 2em 1.5em;
+}
+
+p .fa-user-ninja {
+    font-size: 4em;
+}
+
+.topbar {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.top-bar h1 {
+    width: 100%;
+}
+
+.likes {
+    align-items: center;
+    display: flex;
+    gap: .7em;
+}
+
+button.like-btn {
+    background-color: rgb(231, 223, 107);
+    box-shadow: 2px 2px 3px rgba(49, 49, 49, 0.5);
+    font-size: 1em;
+    padding: 10px 25px;
+}
+
+.comment {
+    padding: 15px 0;
+    width: 100%;
+}
+
+.comment p {
+    line-height: 1.6em;
+}
+
+
+
+
